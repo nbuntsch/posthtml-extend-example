@@ -1,0 +1,15 @@
+<extends
+  src="layouts/base.html"
+  locals='{"bodyclass": "project", "title": "Projet 1"}'
+>
+  <block name="content">
+    <extends
+      src="layouts/project.html"
+      locals='{"title": "Projet 1", "category": "Vidéo"}'
+    >
+      <block name="project-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </block>
+    </extends>
+  </block>
+</extends>

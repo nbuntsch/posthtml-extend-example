@@ -1,0 +1,18 @@
+<extends
+  src="layouts/base.html"
+  locals='{"bodyclass": "project", "title": "Projet 2"}'
+>
+  <block name="content">
+    <extends
+      src="layouts/project.html"
+      locals='{"title": "Projet 2", "category": "UI Design"}'
+    >
+      <block name="project-content">
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+      </block>
+    </extends>
+  </block>
+</extends>
